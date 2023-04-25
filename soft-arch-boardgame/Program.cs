@@ -13,6 +13,10 @@ namespace soft_arch_boardgame
             // Which version of GetTile should you call?
             board.GetTile(1, 3);
             board.GetTile(1, 3, 2);
+            board.AddGamePiece(new GamePiece(), 1, 3);
+            board.AddGamePiece(new GamePiece(), 1, 3, 2);
+
+            Console.WriteLine("Done");
         }
     }
 }

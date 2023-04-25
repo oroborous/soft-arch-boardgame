@@ -14,6 +14,14 @@ namespace soft_arch_boardgame
             Width = width;
             Height = height;
             tiles = new Tile[width, height];
+            // init Tile objects in array
+            for (int i = 0; i < width; i++)
+            {
+                for (int j = 0; j < height; j++)
+                {
+                    tiles[i, j] = new Tile();
+                }
+            }
         }
 
         /**

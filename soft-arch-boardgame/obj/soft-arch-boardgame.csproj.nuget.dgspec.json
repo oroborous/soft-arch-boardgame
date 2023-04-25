@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj": {}
+    "C:\\Users\\moogi\\RiderProjects\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj": {
+    "C:\\Users\\moogi\\RiderProjects\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj",
+        "projectUniqueName": "C:\\Users\\moogi\\RiderProjects\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj",
         "projectName": "soft-arch-boardgame",
-        "projectPath": "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj",
+        "projectPath": "C:\\Users\\moogi\\RiderProjects\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame.csproj",
         "packagesPath": "C:\\Users\\moogi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-boardgame\\soft-arch-boardgame\\soft-arch-boardgame\\obj\\",
+        "outputPath": "C:\\Users\\moogi\\RiderProjects\\soft-arch-boardgame\\soft-arch-boardgame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moogi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -50,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
         }
       }
     }

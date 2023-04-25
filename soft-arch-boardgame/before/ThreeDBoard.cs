@@ -20,6 +20,16 @@ namespace soft_arch_boardgame
         {
             Zpos = zpos;
             tiles = new Tile[width, height, zpos];
+            for (int i = 0; i < width; i++)
+            {
+                for (int j = 0; j < height; j++)
+                {
+                    for (int k = 0; k < zpos; k++)
+                    {
+                        tiles[i, j, k] = new Tile();
+                    }
+                }
+            }
         }
 
         /**
